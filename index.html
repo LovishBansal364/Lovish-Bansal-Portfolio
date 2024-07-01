@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/Screenshot 2024-07-02 021822.png">
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="nav-bar">
+            <a href="#" class="logo">Lovish Bansal</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home  -->
+    <section class="home flex-center" id="home" data-aos="fade-left">
+        <div class="container">
+            <div class="info_left">
+                <h5>Hi! I am <span>Lovish Bansal</span></h5>
+                <h1>Front-End Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique at est eveniet a ratione magni nesciunt provident inventore culpa. Alias?</p>
+                <a href="#contact"><button>Contact me</button></a>
+            </div>
+            <div class="info_right" id="imageDiv">
+                <img src="./images/Lovish bansal.jpg" alt="">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <!-- About  -->
+    <section class="about section" id="about" data-aos="fade-right">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About Me</h1>
+            <h1 class="section-title-02">About Me</h1>
+        </div>
+        <div class="main_about">
+            <div class="left_about">
+                <img src="images/Lovish bansal.jpg" alt="image">
+            </div>
+            <div class="right_about">
+                <div class="info">
+                    <h3>I'm Lovish Bansal</h3>
+                    <h4>A Lead <span>Front-End Developer</span></h4>
+                    <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio.</p>  
+                    <a href="./CV.pdf" class="btn">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills  -->
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Skills</h1>
+            <h2 class="section-title-02">Skills</h2>
+        </div>
+        <div class="content_skills">
+            <h2>Education & Skills</h2>
+            <p>For more than 5 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.</p>
+        </div> 
+        <div class="main_skills">
+            <div class="education_skills">
+                <button type="button">Education</button>
+                <div class="education_skill-01">
+                    <p class="year">2019-2020</p>
+                    <p class="education">Passed 10th - <span>Satluj Public School</span></p>
+                </div>
+                <div class="education_skill-01">
+                    <p class="year">2020-2021</p>
+                    <p class="education">Passed 12th - <span>Satluj Public School</span></p>
+                </div>
+                <div class="education_skill-01">
+                    <p class="year">2021-2025</p>
+                    <p class="education">Computer Science Engineering - <span>Amity University</span> Gurugram</p>
+                </div>
+            </div>
+
+            <div class="course_skills">
+                <button type="button">Skills</button>
+                <div class="course_skill-01">
+                    <ul class="education">
+                        <li class="bar">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="line html"></div>     
+                        </li>
+                    </ul>
+                </div>
+                <div class="course_skill-01">
+                    <ul class="education">
+                        <li class="bar">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="line css"></div>     
+                        </li>
+                    </ul>
+                </div>
+                <div class="course_skill-01">
+                    <ul class="education">
+                        <li class="bar">
+                            <div class="info">
+                                <span>JavaScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="line js"></div>     
+                        </li>
+                    </ul>
+                </div>
+                <div class="course_skill-01">
+                    <ul class="education">
+                        <li class="bar">
+                            <div class="info">
+                                <span>Node.js</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line nodejs"></div>     
+                        </li>
+                    </ul>
+                </div>
+                <div class="course_skill-01">
+                    <ul class="education">
+                        <li class="bar">
+                            <div class="info">
+                                <span>Mongo DB</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="line mongodb"></div>     
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Services  -->
+    <section class="services section" id="services">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Services</h1>
+            <h2 class="section-title-02">Services</h2>
+        </div>
+        <div class="main_card">
+            <div class="card-01" data-aos="zoom-in" data-aos-offset="200">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>UI/UX Consultancy</h3>
+                <p class="learn-more-btn">Learn More <i class="fas fa-arrow-right-long arrow"></i></p>
+            </div>
+            <div class="card-01" data-aos="zoom-in" data-aos-offset="200">
+                <i class="fas fa-file-code"></i>
+                <h3>Web Development</h3>
+                <p class="learn-more-btn">Learn More <i class="fas fa-arrow-right-long arrow"></i></p>
+            </div>
+            <div class="card-01" data-aos="zoom-in" data-aos-offset="200">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Applications Developer</h3>
+                <p class="learn-more-btn">Learn More <i class="fas fa-arrow-right-long arrow"></i></p>
+            </div>
+            <div class="card-01" data-aos="zoom-in" data-aos-offset="200">
+                <i class="fa-brands fa-figma"></i>
+                <h3>Web Designer</h3>
+                <p class="learn-more-btn">Learn More <i class="fas fa-arrow-right-long arrow"></i></p>
+            </div>
+        </div>
+
+        <div class="service_modal flex-center">
+            <div class="service_modal_body">
+                <i class="fas fa-times modal-close-btn"></i>
+                <h3>UI/UX Consultancy</h3>
+                <h4>What is UX consulting?</h4>
+                <p>UX consulting helps companies improve their product's overall usability and optimize expenses by implementing the right UX processes, methods, and tools.</p>
+                <h4>What I provide</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Establish the right UX processes</li>
+                    <li><i class="fas fa-check-circle"></i> Create exceptional user experiences</li>
+                    <li><i class="fas fa-check-circle"></i> Discover new business oppourtinities</li>
+                    <li><i class="fas fa-check-circle"></i> Save resources</li>
+                </ul>
+            </div>
+        </div>
+        <div class="service_modal flex-center">
+            <div class="service_modal_body">
+                <i class="fas fa-times modal-close-btn"></i>
+                <h3>Web Design</h3>
+                <h4>What is Web Design?</h4>
+                <p>Web Design services are used to design, build, support, and Evolve all types of web-based software.</p>
+                <h4>What I provide</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Web application development</li>
+                    <li><i class="fas fa-check-circle"></i> Web Design</li>
+                    <li><i class="fas fa-check-circle"></i> Testing</li>
+                    <li><i class="fas fa-check-circle"></i> Maintenance</li>
+                </ul>
+            </div>
+        </div>
+        <div class="service_modal flex-center">
+            <div class="service_modal_body">
+                <i class="fas fa-times modal-close-btn"></i>
+                <h4>What is applications developing?</h4>
+                <h3>Applications Developer</h3>
+                <p>Applications developer build apps to run on smartphones and tablets and also make web design responsive to run smoothly on smartphones.</p>
+                <h4>What I provide</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Design apps</li>
+                    <li><i class="fas fa-check-circle"></i> Create exceptional user experiences</li>
+                    <li><i class="fas fa-check-circle"></i> Makes websites and apps responsive</li>
+                    <li><i class="fas fa-check-circle"></i> Save resources</li>
+                </ul>
+            </div>
+        </div>
+        <div class="service_modal flex-center">
+            <div class="service_modal_body">
+                <i class="fas fa-times modal-close-btn"></i>
+                <h3>Web Designer</h3>
+                <h4>What is Web Designer?</h4>
+                <p>Web Designer build complex and advanced web designs and uses various web creation techniques.</p>
+                <h4>What I provide</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Web applications design</li>
+                    <li><i class="fas fa-check-circle"></i> Provides backend</li>
+                    <li><i class="fas fa-check-circle"></i> User and customer interaction</li>
+                    <li><i class="fas fa-check-circle"></i> Save resources</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials  -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Testimonials</h1>
+            <h2 class="section-title-02">Testimonials</h2>
+        </div>
+
+        <div class="main_testimonials" data-aos="fade-up" data-aos-offset="250">
+            <div class="project-01">
+                <div class="overlay"></div>
+                <div class="info"><a href="https://github.com/LovishBansal364/Food--restraunt">Link To Project</a></div>
+                <img src="./images/p1.png" alt="">
+            </div>
+            <div class="project-01">
+                <div class="overlay"></div>
+                <div class="info"><a href="https://github.com/LovishBansal364/Hotel-Website">Link To Project</a></div>
+                <img src="./images/p2.jpg" alt="">
+            </div>
+            <div class="project-01">
+                <div class="overlay"></div>
+                <div class="info"><a href="">Link To Project</a></div>
+                <img src="./images/p3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Contact Me</h1>
+            <h2 class="section-title-02">Contact Me</h2>
+        </div>
+        <div class="contact_right" data-aos="zoom-out-up">
+                <p>I'm always open to discussing product<br><span> design work or partnerships.</span></p>
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="first-row">
+                        <input type="text" placeholder="Name" id="name" name="name">
+                    </div>
+                    <div class="second-row">
+                        <input type="email" placeholder="Email" style="width: 100%;" id="email" name="email">
+                    </div>
+                    <div class="third-row">
+                        <textarea name="message" rows="7" placeholder="Type your message here" id="message"></textarea>
+                    </div>
+                    <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+       <div class="info_f">
+            <div class="total_info">
+                <div class="info_02">
+                    <div class="info_footer">
+                        <h3>Lovish Bansal</h3>
+                        <h5>Front-End Developer</h5>
+                    </div>
+                    <div class="social_f">
+                        <h3>Follow Me</h3>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>©, 2024 Lovish Bansal. All rights reserved.</p>
+                </div>
+            </div>
+       </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <div class="scrollToTop-btn flex-center">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Dark Light Theme  -->
+    <div class="theme-btn flex-center">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- External script  -->
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500
+        });
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
